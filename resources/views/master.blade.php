@@ -8,10 +8,10 @@
         <title>Univer MiPC</title>
 
         <!-- Fonts -->
-        <link href="{{asset('/css/app.css')}}" rel="stylesheet" type="text/css">
+        <link href="{{secure_asset('css/app.css')}}" rel="stylesheet" type="text/css">
 
-        <script type="text/javascript" src="{!! asset('/js/app.js') !!}"></script>
-        <script type="text/javascript" src="{!! asset('/js/search.js') !!}"></script>
+        <script type="text/javascript" src="{!! secure_asset('js/app.js') !!}"></script>
+        <script type="text/javascript" src="{!! secure_asset('js/search.js') !!}"></script>
 
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
